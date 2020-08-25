@@ -1,3 +1,5 @@
+## This is a fork of [Continuous Benchmark](https://github.com/rhysd/github-action-benchmark) which sole purpose is to provide a temporary release while [the pull request](https://github.com/rhysd/github-action-benchmark/pull/34) is waiting to be merged. Please submit all contributions to [the branch of the pull request](https://github.com/baronfel/github-action-benchmark/tree/benchmarkdotnet).
+
 GitHub Action for Continuous Benchmarking
 =========================================
 [![Action Marketplace][release-badge]][marketplace]
