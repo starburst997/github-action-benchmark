@@ -66,6 +66,8 @@ function biggerIsBetter(tool) {
             return false;
         case 'catch2':
             return false;
+        case 'benchmarkdotnet':
+            return false;
     }
 }
 function findAlerts(curSuite, prevSuite, threshold) {
