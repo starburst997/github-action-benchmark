@@ -1,5 +1,9 @@
 ## This is a fork of [Continuous Benchmark](https://github.com/rhysd/github-action-benchmark) which sole purpose is to provide a temporary release while [the pull request](https://github.com/rhysd/github-action-benchmark/pull/34) is waiting to be merged. Please submit all contributions to [the branch of the pull request](https://github.com/baronfel/github-action-benchmark/tree/benchmarkdotnet).
 
+Use `Happypig375/github-action-benchmark@v1` or `Happypig375/github-action-benchmark@v1.8.2`
+
+instead of `rhysd/github-action-benchmark@v1` or `rhysd/github-action-benchmark@v1.8.1`.
+
 GitHub Action for Continuous Benchmarking
 =========================================
 [![Action Marketplace][release-badge]][marketplace]
