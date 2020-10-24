@@ -17,7 +17,7 @@ jobs:
           pip install -r requirements.txt
           pytest bench.py --benchmark-json output.json
       - name: Store benchmark result
-        uses: rhysd/github-action-benchmark@v1
+        uses: starburst997/github-action-benchmark@v1.8.7
         with:
           name: Python Benchmark with pytest-benchmark
           tool: 'pytest'
@@ -28,4 +28,4 @@ jobs:
           alert-threshold: '200%'
           comment-on-alert: true
           fail-on-alert: true
-          alert-comment-cc-users: '@rhysd'
+          alert-comment-cc-users: '@starburst997'

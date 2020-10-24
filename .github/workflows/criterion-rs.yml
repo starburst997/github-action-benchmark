@@ -14,7 +14,7 @@ jobs:
             - name: Run benchmark
               run: cd examples/criterion-rs && cargo +nightly bench -- --output-format bencher | tee output.txt
             - name: Store benchmark result
-              uses: rhysd/github-action-benchmark@v1
+              uses: starburst997/github-action-benchmark@v1.8.7
               with:
                   name: Rust Benchmark
                   tool: 'cargo'
@@ -25,4 +25,4 @@ jobs:
                   alert-threshold: '200%'
                   comment-on-alert: true
                   fail-on-alert: true
-                  alert-comment-cc-users: '@rhysd'
+                  alert-comment-cc-users: '@starburst997'

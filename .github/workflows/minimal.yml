@@ -19,7 +19,7 @@ jobs:
           path: ./cache
           key: ${{ runner.os }}-benchmark
       - name: Store benchmark result
-        uses: rhysd/github-action-benchmark@v1
+        uses: starburst997/github-action-benchmark@v1.8.7
         with:
           tool: 'go'
           output-file-path: examples/go/output.txt

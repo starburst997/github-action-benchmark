@@ -16,7 +16,7 @@ jobs:
       - name: Run benchmark
         run: cd examples/benchmarkdotnet && dotnet run --exporters json --filter '*'
       - name: Store benchmark result
-        uses: rhysd/github-action-benchmark@v1
+        uses: starburst997/github-action-benchmark@v1.8.7
         with:
           name: Benchmark.Net Benchmark
           tool: 'benchmarkdotnet'
@@ -28,4 +28,4 @@ jobs:
           alert-threshold: '200%'
           comment-on-alert: true
           fail-on-alert: true
-          alert-comment-cc-users: '@rhysd'
+          alert-comment-cc-users: '@starburst997'
