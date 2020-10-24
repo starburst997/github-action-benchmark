@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1603571633505,
+  "lastUpdate": 1603571915797,
   "entries": {
     "Rust Benchmark": [
       {
@@ -27987,6 +27987,44 @@ window.BENCHMARK_DATA = {
             "range": "± 5.935",
             "unit": "us",
             "extra": "100 samples\n2 iterations"
+          }
+        ]
+      }
+    ],
+    "Benchmark.Net Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "email": "jd@boiv.in",
+            "name": "Jean-Denis Boivin",
+            "username": "starburst997"
+          },
+          "committer": {
+            "email": "jd@boiv.in",
+            "name": "Jean-Denis Boivin",
+            "username": "starburst997"
+          },
+          "distinct": true,
+          "id": "020980f5529168313e8506fbd4380fa2dba31858",
+          "message": "Fix tests",
+          "timestamp": "2020-10-24T16:29:52-04:00",
+          "tree_id": "6c4259cd23a3cbfb21651bfb37db96ba479616c6",
+          "url": "https://github.com/starburst997/github-action-benchmark/commit/020980f5529168313e8506fbd4380fa2dba31858"
+        },
+        "date": 1603571914133,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 36.05513512293498,
+            "unit": "ns",
+            "range": "± 0.6507325491108986"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 67.25486740081206,
+            "unit": "ns",
+            "range": "± 1.6771363141717577"
           }
         ]
       }
