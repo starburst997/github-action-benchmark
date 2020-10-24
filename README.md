@@ -1,6 +1,6 @@
-## This is a fork of [Continuous Benchmark](https://github.com/rhysd/github-action-benchmark) which sole purpose is to provide a temporary release while [the pull request](https://github.com/rhysd/github-action-benchmark/pull/34) is waiting to be merged. Please submit all contributions to [the branch of the pull request](https://github.com/baronfel/github-action-benchmark/tree/benchmarkdotnet).
+## This is a fork of [Continuous Benchmark](https://github.com/rhysd/github-action-benchmark) which sole purpose is to provide a temporary release while [the pull request](https://github.com/rhysd/github-action-benchmark/pull/34) ([and this one](https://github.com/rhysd/github-action-benchmark/pull/38)) is waiting to be merged. Please submit all contributions to [the branch of the pull request](https://github.com/baronfel/github-action-benchmark/tree/benchmarkdotnet).
 
-Use `Happypig375/github-action-benchmark@v1` or `Happypig375/github-action-benchmark@v1.8.2`
+Use `starburst997/github-action-benchmark@v1` or `starburst997/github-action-benchmark@v1.8.2`
 
 instead of `rhysd/github-action-benchmark@v1` or `rhysd/github-action-benchmark@v1.8.1`.
 
