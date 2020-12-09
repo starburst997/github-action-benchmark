@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1607534247248,
+  "lastUpdate": 1607534270113,
   "entries": {
     "Rust Benchmark": [
       {
@@ -26651,6 +26651,42 @@ window.BENCHMARK_DATA = {
             "value": 31598.009882067552,
             "unit": "ns/iter",
             "extra": "iterations: 21453\ncpu: 31596.589800960242 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jd@boiv.in",
+            "name": "Jean-Denis Boivin",
+            "username": "starburst997"
+          },
+          "committer": {
+            "email": "jd@boiv.in",
+            "name": "Jean-Denis Boivin",
+            "username": "starburst997"
+          },
+          "distinct": true,
+          "id": "8a26d2163a9751946953ef12a71d17a5be26e9ba",
+          "message": "Fix null mean?",
+          "timestamp": "2020-12-09T12:15:59-05:00",
+          "tree_id": "551c2642ac507cdb85fcfc7fd6688111543d020c",
+          "url": "https://github.com/starburst997/github-action-benchmark/commit/8a26d2163a9751946953ef12a71d17a5be26e9ba"
+        },
+        "date": 1607534268181,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 215.80235592640895,
+            "unit": "ns/iter",
+            "extra": "iterations: 3308847\ncpu: 215.78234140170278 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 28955.451279728735,
+            "unit": "ns/iter",
+            "extra": "iterations: 24302\ncpu: 28954.043370915973 ns\nthreads: 1"
           }
         ]
       }
