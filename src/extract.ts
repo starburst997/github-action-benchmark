@@ -210,7 +210,6 @@ function getCommit(): Commit {
 
     const pr = github.context.payload.pull_request;
     if (!pr) {
-
         const sender = github.context.payload.sender;
         if (!sender || !github.context.payload.repository) {
             throw new Error(
