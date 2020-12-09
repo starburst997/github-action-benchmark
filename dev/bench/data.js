@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1607534499264,
+  "lastUpdate": 1607534628007,
   "entries": {
     "Rust Benchmark": [
       {
@@ -6538,6 +6538,66 @@ window.BENCHMARK_DATA = {
             "name": "bench_fib_20",
             "value": 22832,
             "range": "± 4615",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jd@boiv.in",
+            "name": "Jean-Denis Boivin",
+            "username": "starburst997"
+          },
+          "committer": {
+            "email": "jd@boiv.in",
+            "name": "Jean-Denis Boivin",
+            "username": "starburst997"
+          },
+          "distinct": true,
+          "id": "e5a097a0b09f92f2deb9964bc3e9d2c44184d685",
+          "message": "Lint",
+          "timestamp": "2020-12-09T12:19:40-05:00",
+          "tree_id": "4e5caa82b6a3b83a5971fa4a95461fd6ff43d61f",
+          "url": "https://github.com/starburst997/github-action-benchmark/commit/e5a097a0b09f92f2deb9964bc3e9d2c44184d685"
+        },
+        "date": 1607534626662,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 177,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 26991,
+            "range": "± 39",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 23789,
+            "range": "± 99",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 4,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 43702,
+            "range": "± 71",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 5,
+            "range": "± 0",
             "unit": "ns/iter"
           }
         ]
