@@ -212,6 +212,11 @@ function getCommit(): Commit {
     if (!pr) {
         
         const sender = github.context.payload.sender;
+        if (!sender || !github.context.payload.repository) {
+            throw new Error(
+                `No commit information is found in payload: ${JSON.stringify(github.context.payload, null, 2)}`,
+            );
+        }
 
         // Manual trigger
         // TODO: Grab latest commit information
@@ -229,10 +234,6 @@ function getCommit(): Commit {
             timestamp: github.context.payload.repository.pushed_at,
             url: "",
         };
-
-        /*throw new Error(
-            `No commit information is found in payload: ${JSON.stringify(github.context.payload, null, 2)}`,
-        );*/
     }
 
     // On pull_request hook, head_commit is not available
