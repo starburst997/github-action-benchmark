@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1607542383373,
+  "lastUpdate": 1607542388117,
   "entries": {
     "Rust Benchmark": [
       {
@@ -18987,6 +18987,44 @@ window.BENCHMARK_DATA = {
             "range": "±0.03%",
             "unit": "ops/sec",
             "extra": "98 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jd@boiv.in",
+            "name": "Jean-Denis Boivin",
+            "username": "starburst997"
+          },
+          "committer": {
+            "email": "jd@boiv.in",
+            "name": "Jean-Denis Boivin",
+            "username": "starburst997"
+          },
+          "distinct": true,
+          "id": "25eb192675f5d782d73f891ccd48e5c300ab0229",
+          "message": "Fix lint",
+          "timestamp": "2020-12-09T14:31:50-05:00",
+          "tree_id": "53c7b20c95468a1275f540792f9fd1e5e5c48cd6",
+          "url": "https://github.com/starburst997/github-action-benchmark/commit/25eb192675f5d782d73f891ccd48e5c300ab0229"
+        },
+        "date": 1607542383107,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "fib(10)",
+            "value": 1085139,
+            "range": "±0.99%",
+            "unit": "ops/sec",
+            "extra": "87 samples"
+          },
+          {
+            "name": "fib(20)",
+            "value": 8940,
+            "range": "±0.74%",
+            "unit": "ops/sec",
+            "extra": "88 samples"
           }
         ]
       }
