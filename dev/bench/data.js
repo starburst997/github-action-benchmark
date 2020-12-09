@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1607542092082,
+  "lastUpdate": 1607542096056,
   "entries": {
     "Rust Benchmark": [
       {
@@ -28733,6 +28733,44 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 22.161,
             "range": "± 1.87",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jd@boiv.in",
+            "name": "Jean-Denis Boivin",
+            "username": "starburst997"
+          },
+          "committer": {
+            "email": "jd@boiv.in",
+            "name": "Jean-Denis Boivin",
+            "username": "starburst997"
+          },
+          "distinct": true,
+          "id": "e1a0ccc61804fe2539a3975e82f240da7e54bc9e",
+          "message": "Allow when there is no commit info",
+          "timestamp": "2020-12-09T14:27:15-05:00",
+          "tree_id": "bb9d6ad583f0386f95218cd975c7f67d45e6bbc3",
+          "url": "https://github.com/starburst997/github-action-benchmark/commit/e1a0ccc61804fe2539a3975e82f240da7e54bc9e"
+        },
+        "date": 1607542091397,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 174,
+            "range": "± 10",
+            "unit": "ns",
+            "extra": "100 samples\n211 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 21.997,
+            "range": "± 248",
             "unit": "us",
             "extra": "100 samples\n2 iterations"
           }
