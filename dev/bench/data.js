@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1607542378254,
+  "lastUpdate": 1607542383373,
   "entries": {
     "Rust Benchmark": [
       {
@@ -27273,6 +27273,42 @@ window.BENCHMARK_DATA = {
             "value": 25664.42168854383,
             "unit": "ns/iter",
             "extra": "iterations: 26816\ncpu: 25664.15692124105 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jd@boiv.in",
+            "name": "Jean-Denis Boivin",
+            "username": "starburst997"
+          },
+          "committer": {
+            "email": "jd@boiv.in",
+            "name": "Jean-Denis Boivin",
+            "username": "starburst997"
+          },
+          "distinct": true,
+          "id": "25eb192675f5d782d73f891ccd48e5c300ab0229",
+          "message": "Fix lint",
+          "timestamp": "2020-12-09T14:31:50-05:00",
+          "tree_id": "53c7b20c95468a1275f540792f9fd1e5e5c48cd6",
+          "url": "https://github.com/starburst997/github-action-benchmark/commit/25eb192675f5d782d73f891ccd48e5c300ab0229"
+        },
+        "date": 1607542378555,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 223.4471172071549,
+            "unit": "ns/iter",
+            "extra": "iterations: 3133836\ncpu: 223.43927314639316 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 30030.45992986658,
+            "unit": "ns/iter",
+            "extra": "iterations: 23384\ncpu: 30029.60421655833 ns\nthreads: 1"
           }
         ]
       }
