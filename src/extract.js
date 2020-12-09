@@ -30,7 +30,26 @@ function getCommit() {
     }
     const pr = github.context.payload.pull_request;
     if (!pr) {
-        throw new Error(`No commit information is found in payload: ${JSON.stringify(github.context.payload, null, 2)}`);
+        const sender = github.context.payload.sender;
+        if (!sender || !github.context.payload.repository) {
+            throw new Error(`No commit information is found in payload: ${JSON.stringify(github.context.payload, null, 2)}`);
+        }
+        // Manual trigger
+        // TODO: Grab latest commit information
+        return {
+            author: {
+                name: sender.login,
+                username: sender.login,
+            },
+            committer: {
+                name: sender.login,
+                username: sender.login,
+            },
+            id: '',
+            message: '',
+            timestamp: github.context.payload.repository.pushed_at,
+            url: '',
+        };
     }
     // On pull_request hook, head_commit is not available
     const message = pr.title;
