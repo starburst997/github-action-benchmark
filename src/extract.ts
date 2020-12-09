@@ -490,7 +490,7 @@ function extractBenchmarkDotnetResult(output: string): BenchmarkResult[] {
     }
 
     return json.Benchmarks.map(benchmark => {
-        if (benchmark.Statistics == null)
+        if (benchmark.Statistics === null || benchmark.Statistics === undefined)
             return  { name: benchmark.FullName, value: 0, unit: 'ns', range: `± 0` };
 
         const name = benchmark.FullName;
