@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1603571915797,
+  "lastUpdate": 1607534230820,
   "entries": {
     "Rust Benchmark": [
       {
@@ -23153,6 +23153,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00019851484462380528",
             "extra": "mean: 2.0762565947366416 msec\nrounds: 380"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jd@boiv.in",
+            "name": "Jean-Denis Boivin",
+            "username": "starburst997"
+          },
+          "committer": {
+            "email": "jd@boiv.in",
+            "name": "Jean-Denis Boivin",
+            "username": "starburst997"
+          },
+          "distinct": true,
+          "id": "8a26d2163a9751946953ef12a71d17a5be26e9ba",
+          "message": "Fix null mean?",
+          "timestamp": "2020-12-09T12:15:59-05:00",
+          "tree_id": "551c2642ac507cdb85fcfc7fd6688111543d020c",
+          "url": "https://github.com/starburst997/github-action-benchmark/commit/8a26d2163a9751946953ef12a71d17a5be26e9ba"
+        },
+        "date": 1607534228920,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 50730.16888659091,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000022538062151485502",
+            "extra": "mean: 19.7121362287505 usec\nrounds: 30302"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 427.9198699272347,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00014548408763746676",
+            "extra": "mean: 2.336886109471954 msec\nrounds: 475"
           }
         ]
       }
