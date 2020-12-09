@@ -210,7 +210,7 @@ function getCommit(): Commit {
 
     const pr = github.context.payload.pull_request;
     if (!pr) {
-        
+
         const sender = github.context.payload.sender;
         if (!sender || !github.context.payload.repository) {
             throw new Error(
@@ -229,10 +229,10 @@ function getCommit(): Commit {
                 name: sender.login,
                 username: sender.login,
             },
-            id: "",
-            message: "",
+            id: '',
+            message: '',
             timestamp: github.context.payload.repository.pushed_at,
-            url: "",
+            url: '',
         };
     }
 
